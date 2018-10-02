@@ -26,15 +26,15 @@ const characters = [
 const characterBuilder = () => {
     let domString = '';
     characters.forEach((character) => {
-        domString += `<div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">${character.name}</h5>
-          <h6 class="card-house">${character.house}</h6>
-          <img src="${character.image}">
-        </div>
-      </div>`
-    })
+        // domString += `<div class="col-2 character">`;
+        domString += `<div class="card">`;
+        domString +=  `<img class="card-img-top" src="${character.image}" alt="${character.name}">`;
+        domString += `<div class="card-body">`;
+        domString +=  `<h5 class="card-title">${character.name}</h5>`;
+        domString += `</div>`;
+        domString +=`</div>`
+    });
     printToDom(domString);
-}
+};
 
 export {characterBuilder};
