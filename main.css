@@ -2,13 +2,10 @@ body {
     background-color: grey;
 }
 
-.character {
-    display: inline-block;
-}
-
 #characters {
     display: flex;
-    flex-wrap: row wrap;
+    flex-wrap: row;
+    justify-content: center;
 }
 
 .card-img-top {
