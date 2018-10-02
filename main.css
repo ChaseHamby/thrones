@@ -2,16 +2,14 @@ body {
     background-color: grey;
 }
 
-#characters {
-    display: flex;
-    flex-wrap: row;
-    justify-content: center;
-}
-
-.card-img-top {
+.character-card{
+    display: inline-block;
+  }
+  
+  .card-img-top {
     height: 280px;
-    width: 280px;
+    width: 100%;
     object-fit: cover;
     object-position: 0 0;
     margin: 0 auto;
-}
+  }
