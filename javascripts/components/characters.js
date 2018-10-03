@@ -1,7 +1,12 @@
 import {printToDom} from "../helpers/util.js";
 import {detailsBuilder} from "./detail.js";
 
-const characters = [];
+let characters = [];
+
+// Use this function below in tandem with characters.js function //
+const setCharacters = (newArray) => {
+    characters = newArray;
+};
 
 //Function used to target the correct card info when you click it - Need this function for the create events function (click event)//
 const characterClick = (e) => {
@@ -35,4 +40,4 @@ const charactersBuilder = () => {
   createEvents();
 };
 
-export {charactersBuilder};
+export {charactersBuilder, setCharacters};
