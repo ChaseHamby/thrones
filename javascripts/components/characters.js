@@ -27,6 +27,25 @@ const createEvents = () => {
   }
 };
 
+// This function below allows the buttons to sort between all and Stark"
+const sortPeople = (e) => {
+    const house = e.target.id;
+    if(house === 'All') {
+        charactersBuilder(characters);
+    } else {
+    const filteredPeeps = characters.filter(x => x.house === house);
+    charactersBuilder(filteredPeeps);
+    }
+};
+
+// This function calls the one above and is used on the main.js//
+const sortEvents = () => {
+    const allButton = document.getElementById('All');
+    const starkButton = document.getElementById('Stark');
+    allButton.addEventListener('click', sortPeople);
+    starkButton.addEventListener('click', sortPeople);
+}
+
 // Need to use singular character in the domString since we are using the forEach method //
 const charactersBuilder = (charactersArray) => {
   let domString = '';
@@ -44,4 +63,4 @@ const charactersBuilder = (charactersArray) => {
   createEvents();
 };
 
-export {charactersBuilder, setCharacters, getCharacterz};
+export {charactersBuilder, setCharacters, getCharacterz, sortEvents};
