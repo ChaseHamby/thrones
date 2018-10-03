@@ -27,6 +27,4 @@ const detailsBuilder = (character) => {
     closeButtonEvent();
 };
 
-
-
 export {detailsBuilder};
