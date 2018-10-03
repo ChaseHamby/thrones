@@ -22,19 +22,19 @@
             "id":"character4", 
             "name": "Tyrion Lannister", 
             "house": "Lannister",
-            "imageUrl": "https://pbs.twimg.com/profile_images/668279339838935040/8sUE9d4C_400x400.jpg'}"
+            "imageUrl": "http://www.halfchocolate.com/wp-content/uploads/2017/02/set-2.jpg'}"
         },
         {
             "id":"character5", 
             "name": "Jaime Lannister", 
             "house": "Lannister",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Jaime_Lannister-Nikolaj_Coster-Waldau.jpg/220px-Jaime_Lannister-Nikolaj_Coster-Waldau.jpg'}"
+            "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/8/81/Jaime_Lannister_%28S05E02%29.jpg/revision/latest/scale-to-width-down/328?cb=20150422205941'}"
         },
         {
             "id":"character6", 
             "name": "Ned Stark", 
             "house": "Stark",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Ned_Stark-Sean_Bean.jpg/220px-Ned_Stark-Sean_Bean.jpg'}"
+            "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/3/37/Eddard_Stark_infobox_new.jpg/revision/latest?cb=20160730050722'}"
         },
         {
             "id":"character7", 
@@ -46,7 +46,7 @@
             "id":"character8", 
             "name": "Khal Drogo", 
             "house": "Drogo Boy",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Khal_Drogo-Jason_Momoa.jpg/220px-Khal_Drogo-Jason_Momoa.jpg'}"
+            "imageUrl": "https://vignette.wikia.nocookie.net/villains/images/0/01/Khaldrogo.jpg/revision/latest?cb=20130819190300'}"
         },
         {
             "id":"character9", 
