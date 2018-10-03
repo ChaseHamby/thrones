@@ -8,6 +8,10 @@ const setCharacters = (newArray) => {
     characters = newArray;
 };
 
+const getCharacterz = () => {
+    return characters;
+}
+
 //Function used to target the correct card info when you click it - Need this function for the create events function (click event)//
 const characterClick = (e) => {
   const characterId = e.target.closest('.character-card').id;
@@ -23,10 +27,29 @@ const createEvents = () => {
   }
 };
 
+// This function below allows the buttons to sort between all and Stark"
+const sortPeople = (e) => {
+    const house = e.target.id;
+    if(house === 'All') {
+        charactersBuilder(characters);
+    } else {
+    const filteredPeeps = characters.filter(x => x.house === house);
+    charactersBuilder(filteredPeeps);
+    }
+};
+
+// This function calls the one above and is used on the main.js//
+const sortEvents = () => {
+    const allButton = document.getElementById('All');
+    const starkButton = document.getElementById('Stark');
+    allButton.addEventListener('click', sortPeople);
+    starkButton.addEventListener('click', sortPeople);
+}
+
 // Need to use singular character in the domString since we are using the forEach method //
-const charactersBuilder = () => {
+const charactersBuilder = (charactersArray) => {
   let domString = '';
-  characters.forEach((character) => {
+  charactersArray.forEach((character) => {
     domString += `<div class="col-2 character-card p-2" id="${character.id}">`
     domString +=   `<div class="card">`;
     domString +=    `<img class="card-img-top" src="${character.imageUrl}" alt="${character.name}">`;
@@ -40,4 +63,4 @@ const charactersBuilder = () => {
   createEvents();
 };
 
-export {charactersBuilder, setCharacters};
+export {charactersBuilder, setCharacters, getCharacterz, sortEvents};
