@@ -1,11 +1,11 @@
-import {setCharacters, charactersBuilder} from '../components/characters.js'
+import {setCharacters, charactersBuilder, getCharacterz} from '../components/characters.js'
 
 //Two functions below must not be written in ES6 //
 
 function executeThisCodeAfterFileLoaded () {
     const data = JSON.parse(this.responseText);
     setCharacters(data.characters);
-    charactersBuilder();
+    charactersBuilder(getCharacterz());
 }
 
 function executeThisCodeIfXhrFails () {
