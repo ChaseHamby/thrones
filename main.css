@@ -2,6 +2,11 @@ body {
     background-color: grey;
 }
 
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .character-card{
     display: inline-block;
   }
