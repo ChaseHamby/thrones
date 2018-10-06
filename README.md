@@ -2,11 +2,13 @@
 
 ## Description
 
-A Game of Thrones site where you can sort characters based on their house. You can click 'All' and it wil display all of the characters. You can click 'Stark' and it will display only characters from the Stark house.
+A Game of Thrones site where you can sort characters based on their house. You can click 'All' and it wil display all of the characters. You can click 'Stark' and it will display only characters from the Stark house. Additionally, when I click on a character, it should show the single character and include the name of their house. There should be a rex X above them that I can click on and it will return to the original list of characters.
 
 ## Screenshots
 <img width="1440" alt="screen shot 2018-10-06 at 10 52 22 am" src="https://user-images.githubusercontent.com/16019344/46573136-406c2600-c956-11e8-8263-da5dc567483f.png">
 <img width="1434" alt="screen shot 2018-10-06 at 10 52 29 am" src="https://user-images.githubusercontent.com/16019344/46573139-43671680-c956-11e8-84e3-3749ef3e2958.png">
+<img width="1136" alt="screen shot 2018-10-06 at 10 59 20 am" src="https://user-images.githubusercontent.com/16019344/46573177-ec157600-c956-11e8-993d-20a5ee10f02f.png">
+
 
 ## Setup
 
